@@ -14,11 +14,11 @@
     </scm>
 
     <distributionManagement>
-        <repository>
+        <site>
             <id>internal.repo</id>
             <name>Temporary Staging Repository</name>
             <url>file://${project.build.directory}/mvn-artifact</url>
-        </repository>
+        </site>
     </distributionManagement>
 
     <build>
@@ -35,6 +35,17 @@
                     <executable>C:\Program Files\Java\jdk1.8.0_112\bin\javac</executable>
                 </configuration>
             </plugin> -->
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.7.1</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-project-info-reports-plugin</artifactId>
+                <version>3.0.0</version>
+            </plugin>
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
