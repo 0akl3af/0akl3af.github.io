@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.0akl3af.maven.plugin</groupId>
+  <artifactId>0akl3af.github.io</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20211024083829</lastUpdated>
+  </versioning>
+</metadata>
