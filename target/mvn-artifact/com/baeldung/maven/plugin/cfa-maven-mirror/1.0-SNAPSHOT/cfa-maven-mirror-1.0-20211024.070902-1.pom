@@ -4,13 +4,13 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.baeldung.maven.plugin</groupId>
-    <artifactId>cfa-maven-mirror</artifactId>
+    <artifactId>0akl3af.github.io</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <url>https://github.com/0akl3af/cfa-maven-mirror.git</url>
+    <url>https://github.com/0akl3af/0akl3af.github.io.git</url>
     <scm>
-        <url>https://github.com/0akl3af/cfa-maven-mirror.git</url>
-        <connection>scm:git:git@github.com:0akl3af/cfa-maven-mirror.git</connection>
-        <developerConnection>scm:git:git@github.com:0akl3af/cfa-maven-mirror.git</developerConnection>
+        <url>https://github.com/0akl3af/0akl3af.github.io.git</url>
+        <connection>scm:git:git@github.com:0akl3af/0akl3af.github.io.git</connection>
+        <developerConnection>scm:git:git@github.com:0akl3af/0akl3af.github.io.git</developerConnection>
     </scm>
     <distributionManagement>
         <repository>
@@ -48,7 +48,7 @@
                         <include>**/*</include>
                     </includes>
                     <merge>true</merge>
-                    <repositoryName>cfa-maven-mirror</repositoryName>
+                    <repositoryName>0akl3af.github.io</repositoryName>
                     <repositoryOwner>0akl3af</repositoryOwner>
                     <server>github</server>
                 </configuration>
@@ -89,7 +89,7 @@
     <repositories>
         <repository>
             <id>PROJECT-REPO-URL</id>
-            <url>https://github.com/0akl3af/cfa-maven-mirror/main</url>
+            <url>https://github.com/0akl3af/0akl3af.github.io/main</url>
             <snapshots>
                 <enabled>true</enabled>
                 <updatePolicy>always</updatePolicy>
