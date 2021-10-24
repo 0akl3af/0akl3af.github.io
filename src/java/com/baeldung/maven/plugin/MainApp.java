@@ -1,4 +1,4 @@
-package com.baeldung.maven.plugin;
+package com.0akl3af.maven.plugin;
 
 public class MainApp {
     public static void main(String[] args){
